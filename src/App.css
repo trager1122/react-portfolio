@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color:white;
 }
 
 .App-logo {
@@ -42,6 +43,11 @@
   font:white;
 }
 
-.about{
+.secstyle{
   font-family: 'Noto Sans TC', sans-serif;
+}
+
+.resume-img{
+  height: 808px;
+  width: 594px;
 }
