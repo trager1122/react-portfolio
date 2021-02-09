@@ -12,17 +12,17 @@ import DailyPlanner from "../img/DailyPlanner.JPG"
 
 const items = [
   {
-    src: { Soundtrackify },
+    src: Soundtrackify,
     altText: 'Soundtrackify App',
     caption: 'Soundtrackify'
   },
   {
-    src: { PasswordGenerator },
+    src: PasswordGenerator,
     altText: 'Password Generator',
     caption: 'Password Generator'
   },
   {
-    src: { DailyPlanner },
+    src: DailyPlanner,
     altText: 'Daily Planner',
     caption: 'Daily Planner'
   }
@@ -64,6 +64,7 @@ const Portfolio = (props) => {
 
   return (
     <Carousel
+      className="w-75 h-75 mx-auto"
       activeIndex={activeIndex}
       next={next}
       previous={previous}
