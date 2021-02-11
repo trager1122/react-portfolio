@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = (props) => {
   return (
-    <div>
+    // < id="about">
+    <>
       <Jumbotron className="pt-5 justify-content-start secstyle">
         <h1 className="display-3 pt-5">Thomas Rager</h1>
         <h2 className="lead pt-5">
@@ -34,7 +35,7 @@ const About = (props) => {
           </a>
         </h5>
       </Jumbotron>
-    </div>
+    </>
   );
 };
 

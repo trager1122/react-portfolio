@@ -6,13 +6,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import background from "./img/pexels-danny-meneses-943096.jpg";
 
 library.add(fab)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App style={{backgroundImage: `url(${background})`}}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

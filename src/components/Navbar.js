@@ -17,29 +17,29 @@ const Navigation = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <header>
       <Navbar className="navbar fixed-top" color="warning" light expand="md">
         <NavbarBrand href="/"><img src={Me} alt="Thomas Rager" className="rounded-circle" width="75" height="75"/>Thomas Rager</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">About</NavLink>
+              <NavLink href="/#about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Resume</NavLink>
+              <NavLink href="/#resume">Resume</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Interests</NavLink>
+              <NavLink href="/#interests">Interests</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Portfolio</NavLink>
+              <NavLink href="/#portfolio">Portfolio</NavLink>
             </NavItem>
           </Nav>
           <NavbarText className="font-weight-bolder">Full Stack Developer</NavbarText>
         </Collapse>
       </Navbar>
-    </div>
+    </header>
   );
 }
 

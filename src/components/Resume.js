@@ -8,11 +8,11 @@ import ResumeImg from "../img/Resume.JPG";
 
 const Resume = (props) => {
   return (
-    <div className="secstyle w-50 mx-auto pt-5 pb-5 mb-5">
+    <div className="secstyle mt-5" id="resume">
       <Card>
-        <CardImg top width="100%" src={ ResumeImg } alt="Card image cap" />
+        <CardImg className="w-50 mx-auto" src={ ResumeImg } alt="Preview of My Resume" />
         <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
+          <CardTitle tag="h5"><a href="">My Resume</a></CardTitle>
         </CardBody>
       </Card>
     </div>

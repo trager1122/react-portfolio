@@ -57,23 +57,24 @@ const Portfolio = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption className="text-dark" captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
   });
 
   return (
+  <div id="portfolio">
     <Carousel
-      className="w-75 h-75 mx-auto"
+      className="w-75 h-50 mx-auto"
       activeIndex={activeIndex}
       next={next}
       previous={previous}
     >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
+  </div>
   );
 }
 

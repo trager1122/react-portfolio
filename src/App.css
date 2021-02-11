@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  color:white;
 }
 
 .App-logo {
@@ -40,7 +39,6 @@
 
 .navbar{
   font-family: 'IBM Plex Sans', sans-serif;
-  font:white;
 }
 
 .secstyle{
@@ -50,4 +48,12 @@
 .resume-img{
   height: 808px;
   width: 594px;
+}
+
+.jumbotron{
+  background-color:floralwhite !important
+}
+
+.card{
+  background-color: navy !important;
 }

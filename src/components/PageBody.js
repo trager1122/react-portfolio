@@ -7,12 +7,13 @@ import Portfolio from "./Portfolio";
 
 const PageBody=(props)=>{
     return(
-    <div className="page-body pt-5">
+    // < className="page-body pt-5">
+    <main>
         <About />
         <Resume/>
         <Interests />
         <Portfolio />
-    </div>
+    </main>
     )
 }
 
