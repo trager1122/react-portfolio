@@ -6,7 +6,7 @@ const About = (props) => {
   return (
     // < id="about">
     <>
-      <Jumbotron className="pt-5 justify-content-start secstyle">
+      <Jumbotron className="pt-5 justify-content-start secstyle margin-none">
         <h1 className="display-3 pt-5">Thomas Rager</h1>
         <h2 className="lead pt-5">
           <span className="pr-5">

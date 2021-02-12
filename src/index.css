@@ -16,7 +16,20 @@ main {
   height: calc(100vh - 135px);
     overflow: auto;
 }
+.margin-none {
+  margin: 0px!important; 
+}
+/* ------ portfolio --------- */
+#portfolio {
+  margin-bottom: 40px
+}
+.carousel-item > img {
+  width: 60%;
+}
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  filter:invert()
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

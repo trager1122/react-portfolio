@@ -18,7 +18,8 @@ const Navigation = (props) => {
 
   return (
     <header>
-      <Navbar className="navbar fixed-top" color="warning" light expand="md">
+      {/* <Navbar className="navbar fixed-top" color="warning" light expand="md"> */}
+      <Navbar className="navbar" color="warning" light expand="md">
         <NavbarBrand href="/"><img src={Me} alt="Thomas Rager" className="rounded-circle" width="75" height="75"/>Thomas Rager</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
