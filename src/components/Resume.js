@@ -5,6 +5,7 @@ import {
   } from 'reactstrap';
   
 import ResumeImg from "../img/Resume.JPG";
+import ResumeFile from "../ThomasRager-WebDevelopmentResume.pdf"
 
 const Resume = (props) => {
   return (
@@ -12,7 +13,7 @@ const Resume = (props) => {
       <Card>
         <CardImg className="w-50 mx-auto" src={ ResumeImg } alt="Preview of My Resume" />
         <CardBody>
-          <CardTitle tag="h5"><a href="">My Resume</a></CardTitle>
+          <CardTitle tag="h5"><a href={ResumeFile}>My Resume</a></CardTitle>
         </CardBody>
       </Card>
     </div>
@@ -20,5 +21,3 @@ const Resume = (props) => {
 };
 
 export default Resume;
-
-// secstyle w-50 mx-auto pb-5 mb-5

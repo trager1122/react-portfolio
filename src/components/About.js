@@ -1,13 +1,13 @@
 import React from "react";
 import { Jumbotron } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Me from '../img/ThomasRager.JPG';
 
 const About = (props) => {
   return (
-    // < id="about">
-    <>
-      <Jumbotron className="pt-5 justify-content-start secstyle margin-none">
-        <h1 className="display-3 pt-5">Thomas Rager</h1>
+    <div id="about">
+      <Jumbotron className="justify-content-start secstyle margin-none">
+        <h1 className="display-3"><img src={Me} alt="Thomas Rager" className="rounded-circle" width="175" height="175"/></h1>
         <h2 className="lead pt-5">
           <span className="pr-5">
             4851 Gate Post Lane, Wilmington, NC 28412
@@ -35,7 +35,7 @@ const About = (props) => {
           </a>
         </h5>
       </Jumbotron>
-    </>
+    </div>
   );
 };
 

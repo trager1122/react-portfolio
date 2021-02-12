@@ -24,6 +24,7 @@ main {
   margin-bottom: 40px
 }
 .carousel-item > img {
+  height: 100%;
   width: 60%;
 }
 

@@ -3,8 +3,8 @@ import { Jumbotron, Container } from "reactstrap";
 
 const Interests = (props) => {
   return (
-    <div className="mt-0" id="interests">
-      <Jumbotron fluid className="secstyle">
+    <div id="interests">
+      <Jumbotron fluid className="secstyle margin-none">
         <Container fluid>
           <h1 className="display-3">Interests</h1>
           <p className="lead">

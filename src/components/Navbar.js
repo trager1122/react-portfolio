@@ -9,7 +9,7 @@ import {
   NavLink,
   NavbarText
 } from 'reactstrap';
-import Me from '../img/ThomasRager.JPG'
+
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navigation = (props) => {
     <header>
       {/* <Navbar className="navbar fixed-top" color="warning" light expand="md"> */}
       <Navbar className="navbar" color="warning" light expand="md">
-        <NavbarBrand href="/"><img src={Me} alt="Thomas Rager" className="rounded-circle" width="75" height="75"/>Thomas Rager</NavbarBrand>
+        <NavbarBrand href="/">Thomas Rager</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

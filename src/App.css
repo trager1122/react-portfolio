@@ -42,18 +42,29 @@
 }
 
 .secstyle{
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif !important
 }
 
+.jumbotron{
+  margin-bottom: none !important
+}
 .resume-img{
   height: 808px;
   width: 594px;
 }
 
-.jumbotron{
+#about{
   background-color:floralwhite !important
 }
 
-.card{
-  background-color: navy !important;
+#resume{
+  background-color: navy !important
+}
+
+#interests{
+  background-color: gray !important;
+}
+
+#portfolio{
+  background-color:deepskyblue !important
 }
