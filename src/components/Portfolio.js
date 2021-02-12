@@ -14,17 +14,17 @@ const items = [
   {
     src: Soundtrackify,
     altText: 'Soundtrackify App',
-    caption: 'Soundtrackify'
+    caption: <a href='https://github.com/trager1122/Soundtrackify'>Github Repository</a>+' '+<a href='https://trager1122.github.io/Soundtrackify/'>Deployed Website</a>
   },
   {
     src: PasswordGenerator,
     altText: 'Password Generator',
-    caption: 'Password Generator'
+    caption: <a href='https://github.com/trager1122/PWGenerator'>Github Repository</a>+' '+<a href='https://trager1122.github.io/PWGenerator/'>Deployed Website</a>
   },
   {
     src: DailyPlanner,
     altText: 'Daily Planner',
-    caption: 'Daily Planner'
+    caption: <a href='https://github.com/trager1122/DailyPlanner'>Github Repository</a>+' '+ <a href='https://trager1122.github.io/DailyPlanner/'>Deployed Website</a>
   }
 ];
 
@@ -57,7 +57,7 @@ const Portfolio = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption className="text-dark" captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption className="text-dark" captionText={item.caption} captionHeader={item.altText} />
       </CarouselItem>
     );
   });
