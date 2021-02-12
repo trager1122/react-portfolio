@@ -57,8 +57,9 @@
   background-color:floralwhite !important
 }
 
-#resume{
-  background-color: navy !important
+.card{
+  background-color: navy !important;
+  padding-top: 20px !important
 }
 
 #interests{

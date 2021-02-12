@@ -95,7 +95,7 @@ const Portfolio = (props) => {
     <div id="portfolio">
       <h1 className='mx-auto display-3'>Portfolio</h1>
       <Carousel
-        className="w-75 h-50 mx-auto"
+        className="w-75 h-100 mx-auto pt-5 pb-5"
         activeIndex={activeIndex}
         next={next}
         previous={previous}
