@@ -10,10 +10,10 @@ const About = (props) => {
         <h1 className="display-3"><img src={Me} alt="Thomas Rager" className="rounded-circle" width="175" height="175"/></h1>
         <h2 className="lead pt-5">
           <span className="pr-5">
-            4851 Gate Post Lane, Wilmington, NC 28412
+            Wilmington, NC 28412
           </span>
           <span className="pr-5 pl-5"> 540-514-5212</span>
-          <span className="pl-5 pr-5">tomrager@yahoo.com</span>
+          <span className="pl-5 pr-5">thomas.rager1980@gmail.com</span>
         </h2>
         <h5 className="pt-5">
           My experience in full stack development allows me to assist with all
