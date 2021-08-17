@@ -5,7 +5,7 @@ import {
   } from 'reactstrap';
   
 import ResumeImg from "../img/Resume.JPG";
-import ResumeFile from "../ThomasRager-WebDevelopmentResume.pdf"
+import ResumeFile from "../img/Resume-WebDevelopment.pdf";
 
 const Resume = (props) => {
   return (

@@ -3,12 +3,11 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
 import Soundtrackify from "../img/Soundtrackify.JPG";
-import PasswordGenerator from "../img/PasswordGenerator.JPG";
-import DailyPlanner from "../img/DailyPlanner.JPG";
+import EmployeeDirectory from "../img/EmployeeDirectory.png";
+import FitnessTracker from "../img/FitnessTracker.png";
 
 const items = [
   {
@@ -26,26 +25,26 @@ const items = [
     ),
   },
   {
-    src: PasswordGenerator,
-    altText: "Password Generator",
+    src: EmployeeDirectory,
+    altText: "Employee Directory",
     caption: (
       <>
-        <a href="https://github.com/trager1122/PWGenerator" className='mr-5'>
+        <a href="https://github.com/trager1122/employeedirectory" className='mr-5'>
           Github Repository
         </a>
-        <a href="https://trager1122.github.io/PWGenerator/">Deployed Website</a>
+        <a href="https://trager1122.github.io/employeedirectory/">Deployed Website</a>
       </>
     ),
   },
   {
-    src: DailyPlanner,
-    altText: "Daily Planner",
+    src: FitnessTracker,
+    altText: "Fitness Tracker",
     caption: (
       <>
-        <a href="https://github.com/trager1122/DailyPlanner" className="mr-5">
+        <a href="https://github.com/trager1122/FitnessTracker" className="mr-5">
           Github Repository
         </a>
-        <a href="https://trager1122.github.io/DailyPlanner/">
+        <a href="https://fitnesstracker1122.herokuapp.com/">
           Deployed Website
         </a>
       </>
